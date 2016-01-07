@@ -28,17 +28,23 @@ This is a small example project that creates a Netflix Eureka microservice deplo
 # Troubleshooting:
 
 Q: *capstan can't find gradle executable.*
+
 A: Install gradle via homebrew (**brew install gradle**), capstan doesnt' appear to respect PATH settings.
 
 Q: *capstan is throwing various errors when trying to start the VM.*
+
 A: Delete the ~/.capstan folder and delete the VMs from VirtualBox and try again.
 
 Q: *I found an issue, have a feature request or a question that's not answered here.*
+
 A: Please register your issue, request or question here: https://github.com/NLxAROSA/unikernel-spring-cloud-netflix/issues
 
 # Additional information
 
 OSv: http://osv.io/
+
 Spring Boot: http://projects.spring.io/spring-boot/
-Spring Cloud: http://projects.spring.io/spring-cloud/ 
+
+Spring Cloud: http://projects.spring.io/spring-cloud/
+
 Spring Cloud Netflix: http://cloud.spring.io/spring-cloud-netflix/
