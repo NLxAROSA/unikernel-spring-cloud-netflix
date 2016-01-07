@@ -1,0 +1,5 @@
+base: cloudius/osv-openjdk8
+cmdline: /java.so -jar /eureka-service-0.0.1.jar
+build: gradle build
+files:
+  /eureka-service-0.0.1.jar: build/libs/eureka-service-0.0.1.jar
