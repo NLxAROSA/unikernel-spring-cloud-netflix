@@ -17,13 +17,21 @@ This is a small example project that creates a Netflix Eureka microservice deplo
 4. Install QEMU: **brew install qemu**
 5. Install Oracle VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
-# Building and running from source
+Note: if you just want to run the project without the unikernel and OSv, all you need is a JDK.
+
+# Building and running the unikernel from source
 
 1. Run **gradle build**
 2. Run **capstan build**
 3. Run **capstan run -f "8761:8761"**
 4. Open a browser and go to http://localhost:8761
 5. Great success!
+
+# Building and running the JAR without the unikernel
+
+1. Run **gradle run**
+2. Open a browser and go to http://localhost:8761
+3. Great success!
 
 # Troubleshooting:
 
