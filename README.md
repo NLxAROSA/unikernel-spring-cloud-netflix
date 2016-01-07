@@ -15,7 +15,8 @@ This is a small example project that creates a Netflix Eureka microservice deplo
 2. Install homebrew: http://brew.sh/
 3. Install capstan: http://osv.io/run-locally/
 4. Install QEMU: **brew install qemu**
-5. Install Oracle VirtualBox: https://www.virtualbox.org/wiki/Downloads
+5. Point CAPSTAN_QEMU_PATH environment variable to your QEMU binary (so not just the path!)
+6. Install Oracle VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
 Note: if you just want to run the project without the unikernel and OSv, all you need is a JDK.
 
